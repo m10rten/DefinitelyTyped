@@ -1,16 +1,24 @@
 {
     "compilerOptions": {
+        "target": "es2017",
         "module": "commonjs",
-        "lib": ["es6"],
+        "lib": [
+            "es6"
+        ],
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "strictNullChecks": true,
         "strictFunctionTypes": true,
+        "strictNullChecks": true,
         "baseUrl": "../",
-        "typeRoots": ["../"],
+        "typeRoots": [
+            "../"
+        ],
         "types": [],
         "noEmit": true,
         "forceConsistentCasingInFileNames": true
     },
-    "files": ["index.d.ts", "favicons-tests.ts"]
+    "files": [
+        "index.d.ts",
+        "dcp-client-tests.ts"
+    ]
 }
